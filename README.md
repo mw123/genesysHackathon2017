@@ -22,4 +22,4 @@ Run `python memorynetwork.py` in terminal and the code will begin training.
 
 ## Credits
 
-Credits for the code go to the creator of Keras, [fchollet](https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py), and [llSourcell](https://github.com/llSourcell/How_to_make_a_chatbot/blob/master/memorynetwork.py), who created a wrapper to get people started with training the memory network. I trained the memory network on the bAbI dataset to obtain weights (model_final.h5), and wrote an iterative shell (chat.ipynb) that allows Q&A from an input story via a decoder, which converts vectorized ouput back to words.
+Credits for the code go to the creator of Keras, [fchollet](https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py), and [llSourcell](https://github.com/llSourcell/How_to_make_a_chatbot/blob/master/memorynetwork.py), who created a wrapper to get people started with training the memory network. I trained the memory network on the bAbI dataset to obtain weights (model_final.h5), and wrote an iterative shell (chat.ipynb) that allows Q&A based on an input story via a decoder, which converts vectorized output sequences back to words.
